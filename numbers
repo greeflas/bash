@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Operator	Description
+# -eq		val1 == val2
+# -ge		val1 >= val2
+# -gt		val1 > val2
+# -le		val1 <= val2
+# -lt		val1 < val2
+# -ne		val1 != val2
+
+n=6
+if [ $n -eq 5 ]
+then
+echo "The number $n equals to 5"
+else
+echo "The number $n not equals to 5"
+fi
