@@ -1,0 +1,7 @@
+#!/bin/bash
+
+author_email="vldmr.kuprienko@gmail.com"
+working_dir=$(pwd)
+
+echo "The author's e-mail is: $author_email"
+echo "The script working dir is $working_dir"
