@@ -1,0 +1,16 @@
+#!/bin/bash
+
+user="root"
+
+# Operator
+# =
+# !=
+# \<
+# \>
+# -n (returns true if string length grater then 0)
+# -z (returns true if string length is 0)
+
+if [ $user = $USER ]
+then
+echo "You are logged as root user"
+fi
