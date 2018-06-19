@@ -1,0 +1,9 @@
+
+#!/bin/bash
+
+function my {
+    local username=`id -un`
+    local usergroup=`id -gn`
+
+    sudo chown -R "$username:$usergroup" $@
+}
