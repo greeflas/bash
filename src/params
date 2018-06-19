@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo "Script name: $0"
+echo "Param 1: $1"
+echo "Param 2: $2"
+echo "Params count: $#"
+echo "Last param: ${!#}"
+echo "All params: $@"
