@@ -1,0 +1,19 @@
+#!/bin/bash
+
+for file in $(ls)
+do
+  if [ -d "$file" ]
+  then
+    echo "Directory: $file"
+  elif [ -f "$file" ]
+  then
+    echo "File: $file"
+  fi
+done
+
+i=5
+while [ $i -gt 0 ]
+do
+  echo $i
+  i=$[ $i - 1]
+done
